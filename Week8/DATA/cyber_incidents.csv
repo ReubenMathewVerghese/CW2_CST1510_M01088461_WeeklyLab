@@ -1,0 +1,1001 @@
+id,date,incident_type,severity,status,created_at
+1,16/12/2024,Data Leak,Low,Closed,16/12/2024 3:29
+2,24/01/2025,Data Leak,Low,Open,24/01/2025 7:17
+3,10/01/2025,Phishing,Critical,Pending Review,10/01/2025 7:38
+4,26/08/2025,Data Leak,High,Pending Review,26/08/2025 10:03
+5,15/11/2025,SQL Injection,High,Pending Review,15/11/2025 20:06
+6,13/09/2025,Data Leak,Low,Resolved,13/09/2025 23:23
+7,06/12/2025,Phishing,High,Resolved,06/12/2025 4:46
+8,18/06/2025,Phishing,Critical,Open,18/06/2025 6:56
+9,25/09/2025,Insider Threat,Critical,Pending Review,25/09/2025 23:33
+10,21/06/2025,Brute Force,High,Under Investigation,21/06/2025 14:53
+11,20/11/2025,Ransomware,Critical,Resolved,20/11/2025 21:53
+12,11/09/2025,SQL Injection,Medium,Pending Review,11/09/2025 18:41
+13,15/07/2025,Phishing,Medium,Resolved,15/07/2025 22:10
+14,21/08/2025,SQL Injection,High,Under Investigation,21/08/2025 3:51
+15,10/07/2025,Brute Force,Critical,Under Investigation,10/07/2025 5:08
+16,23/06/2025,DDoS,Low,Under Investigation,23/06/2025 11:54
+17,02/01/2025,Ransomware,High,Resolved,02/01/2025 9:46
+18,24/09/2025,DDoS,High,Under Investigation,24/09/2025 7:26
+19,21/04/2025,SQL Injection,Low,Pending Review,21/04/2025 16:48
+20,28/10/2025,Insider Threat,Critical,Pending Review,28/10/2025 11:43
+21,22/08/2025,Ransomware,Critical,Open,22/08/2025 14:56
+22,24/12/2024,Data Leak,Medium,Pending Review,24/12/2024 14:15
+23,06/07/2025,Data Leak,Low,Closed,06/07/2025 23:37
+24,22/07/2025,Phishing,Medium,Pending Review,22/07/2025 10:42
+25,10/03/2025,SQL Injection,Critical,Resolved,10/03/2025 3:08
+26,01/01/2025,SQL Injection,High,Closed,01/01/2025 18:02
+27,10/10/2025,Brute Force,Low,Pending Review,10/10/2025 13:48
+28,04/04/2025,Data Leak,Low,Open,04/04/2025 0:22
+29,02/05/2025,Insider Threat,Critical,Resolved,02/05/2025 5:48
+30,18/02/2025,Data Leak,Critical,Pending Review,18/02/2025 2:14
+31,23/04/2025,SQL Injection,Critical,Pending Review,23/04/2025 17:34
+32,24/09/2025,DDoS,Low,Under Investigation,24/09/2025 9:03
+33,29/07/2025,Data Leak,Critical,Open,29/07/2025 7:55
+34,07/09/2025,Data Leak,Critical,Closed,07/09/2025 13:17
+35,14/08/2025,Ransomware,Low,Under Investigation,14/08/2025 1:20
+36,21/04/2025,Ransomware,Critical,Pending Review,21/04/2025 17:45
+37,09/12/2025,Data Leak,High,Under Investigation,09/12/2025 14:41
+38,09/03/2025,Data Leak,Medium,Under Investigation,09/03/2025 15:02
+39,17/11/2025,Ransomware,Low,Resolved,17/11/2025 5:06
+40,04/04/2025,Phishing,Low,Closed,04/04/2025 23:30
+41,26/02/2025,SQL Injection,High,Resolved,26/02/2025 2:49
+42,23/03/2025,Ransomware,High,Under Investigation,23/03/2025 11:54
+43,22/07/2025,Phishing,High,Open,22/07/2025 4:41
+44,11/05/2025,Data Leak,High,Closed,11/05/2025 14:13
+45,31/03/2025,Insider Threat,Medium,Resolved,31/03/2025 15:34
+46,29/12/2024,Phishing,Low,Under Investigation,29/12/2024 22:11
+47,17/06/2025,DDoS,Critical,Under Investigation,17/06/2025 7:14
+48,13/01/2025,Brute Force,Low,Open,13/01/2025 5:05
+49,21/01/2025,Malware,Critical,Resolved,21/01/2025 9:41
+50,02/07/2025,Ransomware,High,Resolved,02/07/2025 8:56
+51,31/01/2025,SQL Injection,High,Resolved,31/01/2025 9:56
+52,15/12/2024,Data Leak,High,Resolved,15/12/2024 22:20
+53,26/12/2024,Brute Force,Medium,Pending Review,26/12/2024 13:41
+54,13/02/2025,SQL Injection,High,Pending Review,13/02/2025 1:30
+55,09/07/2025,Brute Force,Medium,Resolved,09/07/2025 22:46
+56,23/01/2025,SQL Injection,High,Pending Review,23/01/2025 12:01
+57,05/10/2025,Malware,High,Resolved,05/10/2025 1:52
+58,21/08/2025,DDoS,High,Resolved,21/08/2025 15:46
+59,07/12/2025,Ransomware,Low,Resolved,07/12/2025 20:17
+60,05/10/2025,Ransomware,Critical,Pending Review,05/10/2025 6:50
+61,21/11/2025,SQL Injection,High,Pending Review,21/11/2025 20:22
+62,22/08/2025,Phishing,High,Pending Review,22/08/2025 2:54
+63,15/11/2025,Data Leak,High,Resolved,15/11/2025 11:07
+64,21/02/2025,SQL Injection,Low,Under Investigation,21/02/2025 4:33
+65,23/04/2025,DDoS,High,Under Investigation,23/04/2025 11:51
+66,11/10/2025,Brute Force,Low,Closed,11/10/2025 17:29
+67,09/02/2025,Brute Force,Low,Closed,09/02/2025 20:21
+68,25/07/2025,Brute Force,Low,Open,25/07/2025 17:15
+69,28/08/2025,DDoS,Critical,Pending Review,28/08/2025 8:38
+70,19/01/2025,Data Leak,High,Pending Review,19/01/2025 23:26
+71,20/04/2025,Brute Force,Medium,Resolved,20/04/2025 15:37
+72,23/10/2025,Malware,Medium,Open,23/10/2025 17:20
+73,15/05/2025,Brute Force,Low,Under Investigation,15/05/2025 20:54
+74,02/05/2025,Malware,Critical,Under Investigation,02/05/2025 19:59
+75,03/10/2025,Data Leak,Medium,Open,03/10/2025 8:09
+76,29/03/2025,Brute Force,Low,Resolved,29/03/2025 18:09
+77,13/01/2025,SQL Injection,Medium,Closed,13/01/2025 10:12
+78,18/12/2024,Brute Force,High,Pending Review,18/12/2024 8:50
+79,07/03/2025,Brute Force,Medium,Open,07/03/2025 10:14
+80,05/06/2025,DDoS,High,Open,05/06/2025 20:30
+81,23/10/2025,Phishing,Low,Resolved,23/10/2025 9:46
+82,06/12/2025,Ransomware,High,Open,06/12/2025 11:38
+83,13/12/2025,Insider Threat,Low,Pending Review,13/12/2025 4:47
+84,02/08/2025,Ransomware,Medium,Under Investigation,02/08/2025 11:22
+85,05/09/2025,Malware,Low,Closed,05/09/2025 19:34
+86,11/01/2025,Phishing,Medium,Closed,11/01/2025 2:13
+87,24/05/2025,Phishing,High,Under Investigation,24/05/2025 5:40
+88,05/08/2025,Ransomware,Medium,Open,05/08/2025 9:36
+89,20/12/2024,SQL Injection,Critical,Open,20/12/2024 9:37
+90,18/04/2025,Insider Threat,Low,Resolved,18/04/2025 22:55
+91,14/06/2025,Phishing,Critical,Open,14/06/2025 14:40
+92,04/04/2025,DDoS,Low,Closed,04/04/2025 0:49
+93,24/12/2024,DDoS,Critical,Resolved,24/12/2024 5:51
+94,15/05/2025,Data Leak,Critical,Closed,15/05/2025 8:46
+95,09/08/2025,DDoS,Critical,Closed,09/08/2025 17:50
+96,30/01/2025,DDoS,Critical,Resolved,30/01/2025 8:00
+97,31/05/2025,Insider Threat,Low,Resolved,31/05/2025 9:22
+98,22/06/2025,DDoS,Medium,Resolved,22/06/2025 21:51
+99,17/03/2025,Ransomware,High,Under Investigation,17/03/2025 11:46
+100,01/10/2025,Brute Force,Critical,Open,01/10/2025 6:30
+101,06/06/2025,Insider Threat,Low,Closed,06/06/2025 17:59
+102,28/02/2025,Malware,High,Closed,28/02/2025 2:38
+103,01/10/2025,Data Leak,Low,Open,01/10/2025 2:48
+104,12/07/2025,Data Leak,Critical,Closed,12/07/2025 6:21
+105,13/01/2025,Data Leak,Low,Closed,13/01/2025 2:34
+106,05/01/2025,Phishing,Medium,Open,05/01/2025 11:05
+107,06/05/2025,Brute Force,Medium,Open,06/05/2025 8:59
+108,18/12/2024,Malware,Critical,Open,18/12/2024 12:03
+109,17/04/2025,Data Leak,Low,Closed,17/04/2025 6:37
+110,25/06/2025,Brute Force,Low,Open,25/06/2025 0:07
+111,03/07/2025,SQL Injection,High,Pending Review,03/07/2025 18:28
+112,22/02/2025,Malware,Low,Pending Review,22/02/2025 0:56
+113,06/01/2025,Malware,Medium,Under Investigation,06/01/2025 2:45
+114,01/05/2025,Brute Force,Medium,Open,01/05/2025 18:35
+115,02/04/2025,Insider Threat,Critical,Resolved,02/04/2025 14:27
+116,14/01/2025,SQL Injection,Medium,Pending Review,14/01/2025 16:27
+117,04/07/2025,Data Leak,Critical,Pending Review,04/07/2025 3:21
+118,11/09/2025,Brute Force,Low,Open,11/09/2025 10:43
+119,23/05/2025,Brute Force,Medium,Resolved,23/05/2025 23:47
+120,30/12/2024,Ransomware,Medium,Closed,30/12/2024 17:26
+121,26/03/2025,Ransomware,Medium,Pending Review,26/03/2025 10:38
+122,04/04/2025,Data Leak,High,Under Investigation,04/04/2025 15:48
+123,17/04/2025,Malware,High,Closed,17/04/2025 9:52
+124,09/11/2025,Phishing,Medium,Closed,09/11/2025 8:06
+125,11/05/2025,SQL Injection,High,Under Investigation,11/05/2025 0:34
+126,03/10/2025,Insider Threat,High,Under Investigation,03/10/2025 19:46
+127,15/07/2025,DDoS,High,Pending Review,15/07/2025 22:13
+128,25/10/2025,Malware,Low,Pending Review,25/10/2025 21:19
+129,25/12/2024,Data Leak,Medium,Pending Review,25/12/2024 2:19
+130,03/01/2025,Malware,Low,Pending Review,03/01/2025 15:53
+131,26/04/2025,DDoS,Medium,Under Investigation,26/04/2025 8:52
+132,05/02/2025,Data Leak,Critical,Under Investigation,05/02/2025 23:36
+133,03/08/2025,Data Leak,Low,Pending Review,03/08/2025 0:48
+134,18/04/2025,Malware,Critical,Closed,18/04/2025 20:46
+135,19/01/2025,Insider Threat,High,Open,19/01/2025 4:17
+136,08/05/2025,SQL Injection,Low,Closed,08/05/2025 23:06
+137,27/01/2025,Brute Force,Low,Resolved,27/01/2025 11:52
+138,09/09/2025,Brute Force,Medium,Open,09/09/2025 12:23
+139,20/04/2025,Malware,High,Open,20/04/2025 9:12
+140,12/12/2025,Data Leak,Critical,Resolved,12/12/2025 8:48
+141,19/05/2025,SQL Injection,Medium,Closed,19/05/2025 5:59
+142,02/02/2025,Phishing,Low,Closed,02/02/2025 23:02
+143,07/05/2025,Phishing,Critical,Closed,07/05/2025 2:32
+144,03/02/2025,Brute Force,Low,Pending Review,03/02/2025 22:10
+145,01/11/2025,Malware,Critical,Pending Review,01/11/2025 5:40
+146,22/06/2025,SQL Injection,Critical,Under Investigation,22/06/2025 6:12
+147,19/07/2025,DDoS,Low,Open,19/07/2025 16:40
+148,01/07/2025,SQL Injection,Medium,Pending Review,01/07/2025 11:13
+149,13/02/2025,Data Leak,High,Resolved,13/02/2025 9:41
+150,30/05/2025,Phishing,High,Closed,30/05/2025 6:52
+151,13/07/2025,SQL Injection,Medium,Resolved,13/07/2025 1:46
+152,07/01/2025,Data Leak,Low,Pending Review,07/01/2025 18:13
+153,13/06/2025,Phishing,Critical,Closed,13/06/2025 11:18
+154,10/04/2025,Brute Force,Low,Closed,10/04/2025 5:57
+155,12/02/2025,Insider Threat,Low,Closed,12/02/2025 21:58
+156,23/04/2025,Phishing,Low,Open,23/04/2025 22:41
+157,07/07/2025,Insider Threat,High,Resolved,07/07/2025 23:32
+158,25/11/2025,Ransomware,Low,Closed,25/11/2025 20:45
+159,10/11/2025,Brute Force,High,Pending Review,10/11/2025 22:55
+160,04/07/2025,Phishing,Medium,Open,04/07/2025 3:38
+161,05/12/2025,Malware,Medium,Open,05/12/2025 20:56
+162,12/11/2025,Ransomware,Medium,Resolved,12/11/2025 12:19
+163,30/03/2025,SQL Injection,Critical,Closed,30/03/2025 22:33
+164,20/12/2024,Malware,Medium,Resolved,20/12/2024 3:33
+165,04/06/2025,Ransomware,Medium,Open,04/06/2025 18:13
+166,25/01/2025,DDoS,Low,Resolved,25/01/2025 19:55
+167,14/03/2025,Malware,Critical,Closed,14/03/2025 15:29
+168,08/01/2025,SQL Injection,Critical,Under Investigation,08/01/2025 2:21
+169,22/07/2025,Brute Force,High,Resolved,22/07/2025 19:42
+170,17/12/2024,Ransomware,Medium,Resolved,17/12/2024 10:24
+171,18/10/2025,Phishing,Medium,Closed,18/10/2025 14:34
+172,27/12/2024,Phishing,Low,Open,27/12/2024 20:09
+173,21/02/2025,Insider Threat,Medium,Under Investigation,21/02/2025 6:00
+174,13/04/2025,Data Leak,Medium,Open,13/04/2025 5:51
+175,04/11/2025,Insider Threat,High,Resolved,04/11/2025 12:21
+176,23/08/2025,Insider Threat,Low,Closed,23/08/2025 5:04
+177,08/10/2025,Ransomware,Low,Pending Review,08/10/2025 17:03
+178,11/10/2025,Data Leak,High,Open,11/10/2025 14:51
+179,09/12/2025,Insider Threat,Medium,Open,09/12/2025 6:30
+180,19/10/2025,Insider Threat,Critical,Pending Review,19/10/2025 8:14
+181,30/01/2025,Phishing,High,Closed,30/01/2025 8:41
+182,28/09/2025,Ransomware,High,Under Investigation,28/09/2025 17:31
+183,20/04/2025,Malware,Critical,Open,20/04/2025 4:02
+184,30/08/2025,Brute Force,High,Under Investigation,30/08/2025 13:26
+185,01/08/2025,SQL Injection,Critical,Pending Review,01/08/2025 19:29
+186,21/09/2025,Brute Force,Low,Pending Review,21/09/2025 21:13
+187,18/09/2025,Data Leak,Critical,Pending Review,18/09/2025 0:13
+188,07/11/2025,Ransomware,High,Resolved,07/11/2025 0:34
+189,22/08/2025,SQL Injection,High,Closed,22/08/2025 19:35
+190,24/09/2025,Phishing,High,Pending Review,24/09/2025 2:45
+191,05/10/2025,Data Leak,Medium,Resolved,05/10/2025 10:28
+192,29/10/2025,Phishing,High,Pending Review,29/10/2025 9:48
+193,15/06/2025,Malware,Medium,Under Investigation,15/06/2025 10:49
+194,31/12/2024,Data Leak,Critical,Pending Review,31/12/2024 0:24
+195,15/05/2025,Insider Threat,Low,Open,15/05/2025 18:52
+196,01/02/2025,Insider Threat,Medium,Pending Review,01/02/2025 14:34
+197,09/08/2025,Malware,Critical,Pending Review,09/08/2025 6:23
+198,27/06/2025,Phishing,Critical,Resolved,27/06/2025 18:35
+199,20/03/2025,Ransomware,High,Pending Review,20/03/2025 21:33
+200,09/09/2025,Insider Threat,Critical,Resolved,09/09/2025 15:08
+201,24/12/2024,Data Leak,High,Closed,24/12/2024 17:40
+202,29/12/2024,Brute Force,High,Open,29/12/2024 5:24
+203,09/04/2025,Ransomware,Low,Resolved,09/04/2025 12:40
+204,03/08/2025,Brute Force,Critical,Open,03/08/2025 15:55
+205,19/04/2025,Insider Threat,Critical,Pending Review,19/04/2025 22:13
+206,03/10/2025,Malware,Medium,Resolved,03/10/2025 14:56
+207,15/03/2025,DDoS,High,Pending Review,15/03/2025 6:27
+208,21/09/2025,Insider Threat,Critical,Resolved,21/09/2025 20:02
+209,18/10/2025,Phishing,Low,Under Investigation,18/10/2025 11:12
+210,20/12/2024,SQL Injection,High,Pending Review,20/12/2024 5:09
+211,26/02/2025,Brute Force,High,Pending Review,26/02/2025 9:08
+212,26/11/2025,DDoS,High,Open,26/11/2025 13:35
+213,23/01/2025,Data Leak,Critical,Closed,23/01/2025 10:32
+214,11/04/2025,Ransomware,Medium,Pending Review,11/04/2025 0:05
+215,26/07/2025,DDoS,Medium,Pending Review,26/07/2025 11:54
+216,31/10/2025,Phishing,Low,Open,31/10/2025 3:06
+217,14/02/2025,Ransomware,Medium,Under Investigation,14/02/2025 8:40
+218,03/12/2025,Data Leak,Low,Under Investigation,03/12/2025 14:11
+219,06/03/2025,Insider Threat,Medium,Pending Review,06/03/2025 23:05
+220,02/04/2025,Phishing,Low,Open,02/04/2025 16:03
+221,26/04/2025,Malware,Critical,Under Investigation,26/04/2025 22:40
+222,27/03/2025,Malware,Critical,Closed,27/03/2025 11:43
+223,16/04/2025,DDoS,Medium,Under Investigation,16/04/2025 10:19
+224,26/12/2024,SQL Injection,Low,Pending Review,26/12/2024 7:59
+225,03/06/2025,Phishing,Medium,Closed,03/06/2025 3:52
+226,24/06/2025,Ransomware,Medium,Under Investigation,24/06/2025 22:33
+227,30/08/2025,Malware,Critical,Pending Review,30/08/2025 19:13
+228,09/10/2025,Brute Force,Medium,Resolved,09/10/2025 1:47
+229,25/05/2025,SQL Injection,Low,Pending Review,25/05/2025 1:12
+230,01/02/2025,Phishing,High,Resolved,01/02/2025 9:17
+231,28/10/2025,Insider Threat,High,Open,28/10/2025 13:29
+232,29/03/2025,DDoS,Critical,Pending Review,29/03/2025 9:26
+233,23/07/2025,DDoS,Low,Pending Review,23/07/2025 16:43
+234,16/05/2025,Data Leak,Critical,Open,16/05/2025 3:43
+235,29/06/2025,Brute Force,Medium,Open,29/06/2025 21:41
+236,18/01/2025,Insider Threat,Critical,Open,18/01/2025 12:26
+237,28/03/2025,Insider Threat,Medium,Under Investigation,28/03/2025 15:37
+238,03/08/2025,SQL Injection,Critical,Closed,03/08/2025 13:49
+239,20/12/2024,Data Leak,Medium,Under Investigation,20/12/2024 22:44
+240,22/10/2025,Malware,Critical,Resolved,22/10/2025 3:11
+241,18/05/2025,Data Leak,Low,Closed,18/05/2025 9:13
+242,07/05/2025,Malware,Low,Pending Review,07/05/2025 9:35
+243,28/08/2025,Insider Threat,High,Resolved,28/08/2025 14:21
+244,08/07/2025,SQL Injection,Low,Pending Review,08/07/2025 13:25
+245,18/03/2025,SQL Injection,Medium,Closed,18/03/2025 0:45
+246,30/10/2025,Malware,Low,Resolved,30/10/2025 14:23
+247,27/02/2025,Data Leak,Medium,Open,27/02/2025 19:42
+248,15/08/2025,Ransomware,Low,Pending Review,15/08/2025 0:27
+249,21/06/2025,Phishing,Medium,Under Investigation,21/06/2025 4:20
+250,16/06/2025,Data Leak,Low,Resolved,16/06/2025 1:04
+251,24/11/2025,Data Leak,Critical,Closed,24/11/2025 8:49
+252,24/10/2025,DDoS,Low,Under Investigation,24/10/2025 10:09
+253,04/06/2025,Malware,Low,Under Investigation,04/06/2025 16:20
+254,20/03/2025,SQL Injection,Medium,Under Investigation,20/03/2025 14:47
+255,14/05/2025,Brute Force,Medium,Under Investigation,14/05/2025 8:44
+256,05/02/2025,Insider Threat,Medium,Open,05/02/2025 2:37
+257,07/08/2025,Brute Force,Low,Pending Review,07/08/2025 22:29
+258,15/02/2025,Ransomware,Low,Closed,15/02/2025 0:46
+259,06/07/2025,SQL Injection,Critical,Resolved,06/07/2025 1:10
+260,03/07/2025,SQL Injection,Medium,Open,03/07/2025 18:17
+261,12/01/2025,Ransomware,High,Open,12/01/2025 20:42
+262,20/08/2025,Phishing,Medium,Closed,20/08/2025 16:53
+263,11/03/2025,SQL Injection,Medium,Resolved,11/03/2025 10:43
+264,19/03/2025,Brute Force,High,Under Investigation,19/03/2025 11:55
+265,15/08/2025,SQL Injection,High,Resolved,15/08/2025 16:57
+266,10/02/2025,Insider Threat,Critical,Resolved,10/02/2025 2:21
+267,12/03/2025,Insider Threat,Medium,Under Investigation,12/03/2025 1:12
+268,04/04/2025,Insider Threat,High,Resolved,04/04/2025 16:40
+269,19/04/2025,Insider Threat,High,Pending Review,19/04/2025 11:48
+270,26/02/2025,Insider Threat,Medium,Pending Review,26/02/2025 8:11
+271,08/08/2025,Data Leak,High,Under Investigation,08/08/2025 19:11
+272,06/10/2025,Malware,High,Resolved,06/10/2025 16:03
+273,17/11/2025,Phishing,Low,Open,17/11/2025 11:51
+274,12/12/2025,Brute Force,High,Resolved,12/12/2025 6:38
+275,07/12/2025,Ransomware,Medium,Resolved,07/12/2025 1:07
+276,29/07/2025,Data Leak,Critical,Closed,29/07/2025 13:20
+277,12/12/2025,Insider Threat,Low,Pending Review,12/12/2025 15:52
+278,28/12/2024,Brute Force,Low,Under Investigation,28/12/2024 9:21
+279,22/11/2025,Malware,Critical,Resolved,22/11/2025 22:24
+280,31/05/2025,SQL Injection,Critical,Pending Review,31/05/2025 13:39
+281,16/06/2025,Brute Force,High,Under Investigation,16/06/2025 13:10
+282,31/03/2025,Brute Force,Medium,Open,31/03/2025 12:56
+283,10/11/2025,Ransomware,Medium,Closed,10/11/2025 20:09
+284,13/03/2025,Ransomware,Critical,Under Investigation,13/03/2025 21:23
+285,10/01/2025,SQL Injection,Critical,Resolved,10/01/2025 5:44
+286,22/03/2025,Data Leak,Medium,Open,22/03/2025 4:28
+287,01/10/2025,Insider Threat,High,Closed,01/10/2025 7:42
+288,05/01/2025,Phishing,Medium,Under Investigation,05/01/2025 12:17
+289,05/09/2025,Malware,Low,Resolved,05/09/2025 6:05
+290,06/12/2025,Insider Threat,Critical,Resolved,06/12/2025 21:15
+291,27/06/2025,Data Leak,Critical,Under Investigation,27/06/2025 3:58
+292,25/12/2024,SQL Injection,Medium,Closed,25/12/2024 23:22
+293,31/05/2025,Brute Force,Critical,Pending Review,31/05/2025 16:08
+294,17/03/2025,SQL Injection,Low,Resolved,17/03/2025 4:31
+295,25/03/2025,Brute Force,Critical,Resolved,25/03/2025 22:05
+296,25/02/2025,Insider Threat,Medium,Under Investigation,25/02/2025 18:05
+297,04/10/2025,Phishing,Medium,Pending Review,04/10/2025 15:44
+298,25/07/2025,Phishing,High,Pending Review,25/07/2025 10:20
+299,27/12/2024,Insider Threat,High,Resolved,27/12/2024 8:34
+300,20/06/2025,SQL Injection,Medium,Resolved,20/06/2025 18:50
+301,18/01/2025,Insider Threat,Low,Resolved,18/01/2025 16:20
+302,24/03/2025,Ransomware,High,Resolved,24/03/2025 12:32
+303,24/10/2025,Phishing,Medium,Open,24/10/2025 16:40
+304,23/02/2025,DDoS,Low,Under Investigation,23/02/2025 4:38
+305,12/11/2025,Brute Force,High,Closed,12/11/2025 18:04
+306,04/12/2025,DDoS,Medium,Resolved,04/12/2025 15:10
+307,20/11/2025,Brute Force,Low,Open,20/11/2025 3:39
+308,23/11/2025,Ransomware,High,Open,23/11/2025 8:40
+309,06/07/2025,DDoS,High,Resolved,06/07/2025 11:25
+310,05/05/2025,Brute Force,Critical,Open,05/05/2025 18:32
+311,13/12/2024,Data Leak,Low,Closed,13/12/2024 16:54
+312,14/11/2025,Brute Force,High,Closed,14/11/2025 1:47
+313,26/02/2025,Insider Threat,Critical,Open,26/02/2025 13:22
+314,14/09/2025,Insider Threat,High,Resolved,14/09/2025 1:15
+315,10/03/2025,Ransomware,High,Pending Review,10/03/2025 15:28
+316,23/03/2025,DDoS,Low,Under Investigation,23/03/2025 22:50
+317,29/08/2025,Data Leak,Low,Open,29/08/2025 23:41
+318,31/08/2025,DDoS,Critical,Pending Review,31/08/2025 18:15
+319,18/05/2025,Malware,Medium,Closed,18/05/2025 13:01
+320,10/08/2025,Brute Force,High,Under Investigation,10/08/2025 3:30
+321,06/10/2025,Phishing,Medium,Closed,06/10/2025 14:28
+322,02/11/2025,DDoS,Critical,Pending Review,02/11/2025 10:30
+323,19/11/2025,Brute Force,Medium,Closed,19/11/2025 6:33
+324,15/05/2025,Ransomware,High,Pending Review,15/05/2025 1:11
+325,28/12/2024,DDoS,Critical,Open,28/12/2024 5:43
+326,02/03/2025,Brute Force,Medium,Closed,02/03/2025 6:23
+327,18/09/2025,Brute Force,Low,Closed,18/09/2025 8:44
+328,15/05/2025,Malware,Medium,Pending Review,15/05/2025 8:12
+329,15/02/2025,SQL Injection,High,Under Investigation,15/02/2025 8:30
+330,16/01/2025,Data Leak,Critical,Open,16/01/2025 17:55
+331,21/01/2025,Brute Force,Low,Pending Review,21/01/2025 16:48
+332,03/06/2025,DDoS,Medium,Resolved,03/06/2025 15:07
+333,13/10/2025,SQL Injection,High,Closed,13/10/2025 7:21
+334,08/10/2025,Data Leak,Medium,Closed,08/10/2025 11:12
+335,11/11/2025,DDoS,High,Open,11/11/2025 6:12
+336,08/04/2025,Ransomware,Medium,Closed,08/04/2025 5:20
+337,06/12/2025,DDoS,Critical,Resolved,06/12/2025 20:08
+338,20/02/2025,Insider Threat,Medium,Pending Review,20/02/2025 17:27
+339,26/08/2025,Phishing,Low,Closed,26/08/2025 1:19
+340,17/11/2025,Malware,Medium,Resolved,17/11/2025 15:39
+341,25/09/2025,Malware,High,Closed,25/09/2025 10:21
+342,24/05/2025,Malware,Critical,Under Investigation,24/05/2025 9:23
+343,04/05/2025,Malware,Medium,Open,04/05/2025 18:50
+344,19/02/2025,Insider Threat,Critical,Closed,19/02/2025 0:31
+345,18/11/2025,Ransomware,Low,Under Investigation,18/11/2025 8:15
+346,19/12/2024,Brute Force,High,Under Investigation,19/12/2024 1:37
+347,04/05/2025,Insider Threat,Medium,Under Investigation,04/05/2025 4:13
+348,25/12/2024,Insider Threat,High,Resolved,25/12/2024 3:33
+349,03/08/2025,Ransomware,Critical,Pending Review,03/08/2025 12:49
+350,18/02/2025,Brute Force,Medium,Resolved,18/02/2025 20:53
+351,28/01/2025,DDoS,Low,Under Investigation,28/01/2025 1:23
+352,24/08/2025,DDoS,Critical,Pending Review,24/08/2025 20:32
+353,03/11/2025,Phishing,Low,Resolved,03/11/2025 4:53
+354,05/04/2025,DDoS,Low,Under Investigation,05/04/2025 9:32
+355,08/10/2025,Brute Force,Low,Resolved,08/10/2025 15:24
+356,08/01/2025,Phishing,Medium,Pending Review,08/01/2025 13:20
+357,19/04/2025,Malware,High,Open,19/04/2025 4:20
+358,11/02/2025,SQL Injection,Low,Closed,11/02/2025 6:11
+359,04/01/2025,Brute Force,Critical,Open,04/01/2025 3:50
+360,20/10/2025,DDoS,Medium,Under Investigation,20/10/2025 12:40
+361,04/05/2025,Brute Force,High,Pending Review,04/05/2025 13:37
+362,26/03/2025,Brute Force,Critical,Pending Review,26/03/2025 0:35
+363,07/07/2025,Phishing,High,Open,07/07/2025 3:09
+364,18/01/2025,Insider Threat,Low,Pending Review,18/01/2025 23:47
+365,18/02/2025,Insider Threat,High,Open,18/02/2025 10:18
+366,18/06/2025,Insider Threat,Critical,Resolved,18/06/2025 9:14
+367,07/02/2025,Malware,Critical,Resolved,07/02/2025 12:06
+368,02/04/2025,DDoS,Medium,Pending Review,02/04/2025 10:32
+369,15/10/2025,Phishing,Medium,Resolved,15/10/2025 10:38
+370,19/09/2025,DDoS,Low,Resolved,19/09/2025 0:03
+371,03/08/2025,Insider Threat,Low,Resolved,03/08/2025 15:59
+372,26/02/2025,Brute Force,High,Resolved,26/02/2025 0:22
+373,29/01/2025,SQL Injection,Medium,Closed,29/01/2025 22:01
+374,23/05/2025,Ransomware,Medium,Pending Review,23/05/2025 8:16
+375,02/07/2025,DDoS,Critical,Resolved,02/07/2025 22:30
+376,13/05/2025,DDoS,High,Open,13/05/2025 13:40
+377,14/01/2025,Data Leak,Critical,Pending Review,14/01/2025 16:35
+378,11/06/2025,Brute Force,High,Under Investigation,11/06/2025 22:50
+379,07/10/2025,Phishing,Low,Pending Review,07/10/2025 10:56
+380,08/01/2025,Data Leak,High,Open,08/01/2025 18:29
+381,15/05/2025,Phishing,High,Open,15/05/2025 7:50
+382,29/11/2025,Insider Threat,Critical,Open,29/11/2025 13:38
+383,17/08/2025,Malware,High,Resolved,17/08/2025 19:16
+384,10/02/2025,DDoS,High,Resolved,10/02/2025 12:30
+385,04/01/2025,Insider Threat,Low,Resolved,04/01/2025 4:39
+386,26/10/2025,Brute Force,Critical,Resolved,26/10/2025 18:32
+387,18/12/2024,Ransomware,Critical,Open,18/12/2024 22:20
+388,13/05/2025,Malware,Low,Pending Review,13/05/2025 2:28
+389,03/05/2025,Phishing,Critical,Pending Review,03/05/2025 6:54
+390,13/11/2025,Phishing,High,Closed,13/11/2025 17:28
+391,08/11/2025,Brute Force,Low,Resolved,08/11/2025 21:02
+392,04/10/2025,Insider Threat,Low,Closed,04/10/2025 8:48
+393,14/04/2025,Phishing,Critical,Closed,14/04/2025 4:52
+394,13/07/2025,Malware,Critical,Under Investigation,13/07/2025 1:09
+395,28/04/2025,SQL Injection,Critical,Under Investigation,28/04/2025 21:31
+396,11/08/2025,Brute Force,Critical,Closed,11/08/2025 16:58
+397,17/11/2025,Malware,Low,Resolved,17/11/2025 8:06
+398,27/01/2025,DDoS,Low,Closed,27/01/2025 9:00
+399,10/03/2025,SQL Injection,Medium,Resolved,10/03/2025 0:30
+400,26/05/2025,Brute Force,Critical,Closed,26/05/2025 4:51
+401,18/09/2025,Data Leak,Critical,Resolved,18/09/2025 17:01
+402,13/11/2025,DDoS,Low,Pending Review,13/11/2025 1:25
+403,10/07/2025,Brute Force,Medium,Pending Review,10/07/2025 21:41
+404,09/09/2025,Ransomware,Critical,Resolved,09/09/2025 22:15
+405,26/09/2025,Insider Threat,Critical,Open,26/09/2025 2:02
+406,11/09/2025,Data Leak,Critical,Resolved,11/09/2025 17:45
+407,23/01/2025,Insider Threat,Critical,Open,23/01/2025 0:56
+408,08/05/2025,Data Leak,Low,Open,08/05/2025 7:09
+409,15/07/2025,Data Leak,Critical,Closed,15/07/2025 23:35
+410,27/07/2025,Brute Force,Low,Closed,27/07/2025 6:19
+411,14/11/2025,Brute Force,High,Resolved,14/11/2025 23:06
+412,26/12/2024,Phishing,Medium,Resolved,26/12/2024 2:24
+413,22/05/2025,Insider Threat,High,Pending Review,22/05/2025 19:54
+414,07/04/2025,Ransomware,Medium,Resolved,07/04/2025 11:47
+415,18/11/2025,DDoS,Medium,Under Investigation,18/11/2025 16:29
+416,03/05/2025,Insider Threat,High,Open,03/05/2025 19:51
+417,03/08/2025,Data Leak,Critical,Closed,03/08/2025 12:20
+418,13/01/2025,SQL Injection,High,Closed,13/01/2025 8:01
+419,01/06/2025,DDoS,High,Resolved,01/06/2025 3:03
+420,31/03/2025,DDoS,High,Under Investigation,31/03/2025 16:47
+421,28/03/2025,Data Leak,Critical,Under Investigation,28/03/2025 7:19
+422,03/11/2025,Phishing,High,Pending Review,03/11/2025 4:43
+423,08/07/2025,Brute Force,Critical,Closed,08/07/2025 14:50
+424,29/09/2025,SQL Injection,Medium,Closed,29/09/2025 3:24
+425,01/05/2025,Brute Force,Critical,Under Investigation,01/05/2025 3:58
+426,30/10/2025,DDoS,Medium,Open,30/10/2025 19:50
+427,17/04/2025,Malware,Low,Under Investigation,17/04/2025 6:15
+428,26/12/2024,Ransomware,Critical,Under Investigation,26/12/2024 17:11
+429,21/02/2025,Insider Threat,Low,Under Investigation,21/02/2025 17:27
+430,31/01/2025,Data Leak,High,Closed,31/01/2025 3:40
+431,24/12/2024,Insider Threat,Medium,Closed,24/12/2024 1:41
+432,11/09/2025,Ransomware,High,Open,11/09/2025 13:11
+433,11/10/2025,SQL Injection,Low,Pending Review,11/10/2025 4:19
+434,12/06/2025,SQL Injection,Low,Pending Review,12/06/2025 14:58
+435,07/06/2025,Ransomware,High,Pending Review,07/06/2025 15:18
+436,03/02/2025,Data Leak,Critical,Under Investigation,03/02/2025 23:10
+437,05/03/2025,Ransomware,High,Open,05/03/2025 18:41
+438,12/02/2025,Brute Force,Low,Open,12/02/2025 4:54
+439,24/12/2024,Malware,Low,Pending Review,24/12/2024 18:23
+440,07/05/2025,Insider Threat,Low,Under Investigation,07/05/2025 19:34
+441,30/07/2025,Ransomware,Medium,Pending Review,30/07/2025 0:52
+442,30/11/2025,Data Leak,Low,Under Investigation,30/11/2025 6:14
+443,15/06/2025,DDoS,Critical,Pending Review,15/06/2025 16:29
+444,08/07/2025,Malware,Critical,Closed,08/07/2025 17:47
+445,24/10/2025,Data Leak,Medium,Pending Review,24/10/2025 4:39
+446,31/10/2025,Insider Threat,Low,Pending Review,31/10/2025 22:28
+447,22/01/2025,Phishing,High,Open,22/01/2025 12:21
+448,10/04/2025,Data Leak,Low,Pending Review,10/04/2025 19:27
+449,04/09/2025,Insider Threat,Medium,Closed,04/09/2025 21:51
+450,01/08/2025,DDoS,High,Resolved,01/08/2025 22:30
+451,16/12/2024,Phishing,Critical,Under Investigation,16/12/2024 3:50
+452,28/10/2025,Malware,Medium,Resolved,28/10/2025 14:30
+453,14/11/2025,Ransomware,Medium,Open,14/11/2025 6:30
+454,25/06/2025,Malware,Medium,Closed,25/06/2025 2:13
+455,23/05/2025,Insider Threat,Low,Pending Review,23/05/2025 15:49
+456,04/05/2025,DDoS,High,Open,04/05/2025 2:39
+457,01/06/2025,Insider Threat,High,Under Investigation,01/06/2025 20:45
+458,31/03/2025,Brute Force,Low,Resolved,31/03/2025 19:43
+459,01/04/2025,Data Leak,Low,Pending Review,01/04/2025 5:58
+460,15/08/2025,Brute Force,High,Open,15/08/2025 20:12
+461,01/09/2025,Ransomware,Medium,Closed,01/09/2025 11:27
+462,02/07/2025,Malware,Critical,Pending Review,02/07/2025 10:22
+463,16/12/2024,Malware,High,Under Investigation,16/12/2024 17:37
+464,05/06/2025,Phishing,Low,Open,05/06/2025 23:33
+465,24/08/2025,Insider Threat,Medium,Closed,24/08/2025 3:38
+466,14/03/2025,Brute Force,Medium,Closed,14/03/2025 2:09
+467,30/08/2025,Phishing,Critical,Resolved,30/08/2025 14:44
+468,08/08/2025,Data Leak,Medium,Under Investigation,08/08/2025 10:51
+469,22/03/2025,Malware,High,Closed,22/03/2025 15:16
+470,23/05/2025,Brute Force,Low,Open,23/05/2025 5:10
+471,29/06/2025,Brute Force,High,Closed,29/06/2025 2:43
+472,29/01/2025,Phishing,Medium,Pending Review,29/01/2025 15:49
+473,10/05/2025,Data Leak,Medium,Resolved,10/05/2025 22:29
+474,26/05/2025,Insider Threat,Critical,Open,26/05/2025 5:29
+475,13/04/2025,Brute Force,Critical,Open,13/04/2025 22:11
+476,15/09/2025,Phishing,Critical,Resolved,15/09/2025 17:13
+477,12/11/2025,Data Leak,High,Closed,12/11/2025 2:56
+478,07/12/2025,SQL Injection,Low,Open,07/12/2025 17:25
+479,30/10/2025,Brute Force,High,Resolved,30/10/2025 20:22
+480,02/05/2025,DDoS,Low,Closed,02/05/2025 16:23
+481,25/09/2025,Ransomware,Low,Closed,25/09/2025 8:21
+482,10/01/2025,Insider Threat,Medium,Closed,10/01/2025 2:24
+483,19/03/2025,Data Leak,Medium,Pending Review,19/03/2025 2:53
+484,12/10/2025,Malware,Low,Pending Review,12/10/2025 1:33
+485,15/07/2025,Phishing,Low,Closed,15/07/2025 1:26
+486,17/01/2025,Brute Force,Critical,Closed,17/01/2025 2:08
+487,09/04/2025,DDoS,Medium,Pending Review,09/04/2025 22:20
+488,07/10/2025,Insider Threat,Critical,Pending Review,07/10/2025 6:49
+489,13/11/2025,Phishing,Medium,Resolved,13/11/2025 0:23
+490,16/11/2025,Ransomware,Low,Under Investigation,16/11/2025 19:04
+491,04/07/2025,Phishing,Low,Under Investigation,04/07/2025 14:03
+492,02/07/2025,Malware,High,Closed,02/07/2025 20:40
+493,22/06/2025,Insider Threat,Critical,Open,22/06/2025 5:07
+494,01/03/2025,SQL Injection,High,Open,01/03/2025 1:43
+495,14/11/2025,Ransomware,High,Closed,14/11/2025 5:38
+496,09/11/2025,Brute Force,Low,Closed,09/11/2025 10:57
+497,12/07/2025,Insider Threat,High,Resolved,12/07/2025 0:12
+498,04/12/2025,Malware,Critical,Closed,04/12/2025 23:37
+499,19/09/2025,Ransomware,Critical,Open,19/09/2025 23:44
+500,16/07/2025,Malware,Critical,Resolved,16/07/2025 7:43
+501,09/02/2025,Phishing,High,Closed,09/02/2025 12:29
+502,30/07/2025,Insider Threat,Medium,Closed,30/07/2025 13:13
+503,28/04/2025,Insider Threat,Medium,Open,28/04/2025 5:09
+504,08/08/2025,DDoS,Medium,Closed,08/08/2025 12:58
+505,02/01/2025,SQL Injection,Low,Resolved,02/01/2025 8:15
+506,08/06/2025,Insider Threat,Medium,Closed,08/06/2025 8:24
+507,21/07/2025,Brute Force,Low,Open,21/07/2025 11:45
+508,22/04/2025,DDoS,Low,Open,22/04/2025 8:37
+509,11/06/2025,SQL Injection,Low,Pending Review,11/06/2025 20:08
+510,20/02/2025,Insider Threat,Medium,Open,20/02/2025 13:17
+511,13/09/2025,Malware,Critical,Closed,13/09/2025 7:16
+512,15/03/2025,Data Leak,High,Pending Review,15/03/2025 3:14
+513,10/10/2025,Brute Force,Critical,Open,10/10/2025 8:56
+514,05/07/2025,Phishing,High,Open,05/07/2025 13:13
+515,04/10/2025,Insider Threat,High,Open,04/10/2025 9:23
+516,04/12/2025,Data Leak,Medium,Pending Review,04/12/2025 15:48
+517,19/08/2025,DDoS,Critical,Pending Review,19/08/2025 18:46
+518,06/05/2025,DDoS,Critical,Closed,06/05/2025 16:52
+519,13/07/2025,Data Leak,Critical,Pending Review,13/07/2025 4:18
+520,21/05/2025,SQL Injection,Low,Pending Review,21/05/2025 0:54
+521,29/01/2025,Malware,High,Resolved,29/01/2025 4:43
+522,21/01/2025,SQL Injection,Medium,Under Investigation,21/01/2025 15:17
+523,06/08/2025,DDoS,Medium,Open,06/08/2025 18:54
+524,07/07/2025,Brute Force,Low,Open,07/07/2025 19:35
+525,05/08/2025,Phishing,Low,Pending Review,05/08/2025 17:16
+526,10/09/2025,Ransomware,Critical,Under Investigation,10/09/2025 6:33
+527,10/08/2025,Insider Threat,Medium,Closed,10/08/2025 15:19
+528,24/09/2025,DDoS,Low,Resolved,24/09/2025 9:49
+529,01/01/2025,SQL Injection,Medium,Pending Review,01/01/2025 15:07
+530,02/05/2025,Malware,Medium,Resolved,02/05/2025 18:34
+531,07/01/2025,Insider Threat,Medium,Resolved,07/01/2025 5:26
+532,21/05/2025,Phishing,Low,Closed,21/05/2025 4:37
+533,26/07/2025,Insider Threat,Low,Resolved,26/07/2025 3:21
+534,26/10/2025,Data Leak,Low,Closed,26/10/2025 7:20
+535,21/01/2025,Insider Threat,Low,Closed,21/01/2025 14:29
+536,31/10/2025,Data Leak,High,Resolved,31/10/2025 16:47
+537,08/07/2025,Data Leak,Medium,Pending Review,08/07/2025 9:46
+538,20/10/2025,Brute Force,Low,Resolved,20/10/2025 13:29
+539,12/06/2025,DDoS,High,Open,12/06/2025 9:08
+540,17/11/2025,Phishing,Medium,Resolved,17/11/2025 5:21
+541,14/11/2025,Data Leak,High,Pending Review,14/11/2025 2:49
+542,05/05/2025,Data Leak,High,Closed,05/05/2025 0:22
+543,27/06/2025,Malware,High,Open,27/06/2025 10:54
+544,27/04/2025,Data Leak,Critical,Closed,27/04/2025 2:41
+545,09/02/2025,Phishing,Critical,Resolved,09/02/2025 12:09
+546,28/07/2025,Data Leak,Critical,Open,28/07/2025 6:24
+547,13/08/2025,Phishing,Critical,Pending Review,13/08/2025 5:17
+548,22/01/2025,DDoS,Medium,Under Investigation,22/01/2025 16:34
+549,03/12/2025,Brute Force,Critical,Closed,03/12/2025 23:47
+550,12/03/2025,Data Leak,Medium,Resolved,12/03/2025 3:43
+551,30/11/2025,Data Leak,High,Closed,30/11/2025 22:43
+552,30/03/2025,Phishing,Critical,Pending Review,30/03/2025 13:51
+553,26/07/2025,Insider Threat,Critical,Resolved,26/07/2025 20:05
+554,03/04/2025,Brute Force,Medium,Open,03/04/2025 1:13
+555,19/08/2025,Brute Force,Low,Resolved,19/08/2025 20:01
+556,28/10/2025,Insider Threat,Medium,Resolved,28/10/2025 18:26
+557,30/01/2025,SQL Injection,Low,Closed,30/01/2025 8:49
+558,21/10/2025,Data Leak,High,Closed,21/10/2025 11:15
+559,28/06/2025,DDoS,High,Resolved,28/06/2025 23:54
+560,05/02/2025,Phishing,Critical,Under Investigation,05/02/2025 9:07
+561,13/05/2025,Brute Force,High,Pending Review,13/05/2025 20:39
+562,30/07/2025,Brute Force,Medium,Pending Review,30/07/2025 12:07
+563,07/05/2025,Insider Threat,Critical,Closed,07/05/2025 16:24
+564,30/07/2025,Data Leak,Low,Resolved,30/07/2025 13:37
+565,24/03/2025,Brute Force,Low,Pending Review,24/03/2025 5:58
+566,12/08/2025,Ransomware,Medium,Resolved,12/08/2025 20:53
+567,01/10/2025,Brute Force,Medium,Pending Review,01/10/2025 8:37
+568,05/10/2025,Phishing,High,Open,05/10/2025 16:58
+569,28/12/2024,Insider Threat,High,Closed,28/12/2024 18:30
+570,31/03/2025,Brute Force,Critical,Closed,31/03/2025 15:44
+571,08/08/2025,SQL Injection,Critical,Pending Review,08/08/2025 15:01
+572,09/01/2025,Ransomware,Low,Under Investigation,09/01/2025 2:12
+573,08/02/2025,Phishing,High,Under Investigation,08/02/2025 0:48
+574,10/01/2025,DDoS,High,Pending Review,10/01/2025 12:03
+575,26/12/2024,Phishing,Low,Resolved,26/12/2024 15:30
+576,14/09/2025,SQL Injection,Low,Closed,14/09/2025 10:40
+577,24/03/2025,Ransomware,Low,Under Investigation,24/03/2025 3:43
+578,26/02/2025,Phishing,High,Pending Review,26/02/2025 3:42
+579,20/05/2025,SQL Injection,Critical,Resolved,20/05/2025 21:25
+580,27/09/2025,Phishing,High,Closed,27/09/2025 8:06
+581,31/12/2024,Insider Threat,Medium,Resolved,31/12/2024 18:00
+582,26/04/2025,SQL Injection,Critical,Closed,26/04/2025 3:46
+583,16/10/2025,Phishing,Medium,Closed,16/10/2025 19:47
+584,01/11/2025,Ransomware,Medium,Under Investigation,01/11/2025 3:20
+585,04/07/2025,SQL Injection,Critical,Under Investigation,04/07/2025 22:29
+586,26/03/2025,Ransomware,High,Pending Review,26/03/2025 9:03
+587,04/10/2025,DDoS,Critical,Pending Review,04/10/2025 5:19
+588,31/07/2025,DDoS,High,Open,31/07/2025 16:18
+589,17/06/2025,DDoS,Medium,Pending Review,17/06/2025 13:48
+590,11/04/2025,Data Leak,Low,Under Investigation,11/04/2025 7:56
+591,16/06/2025,Brute Force,High,Open,16/06/2025 4:59
+592,12/09/2025,SQL Injection,Low,Under Investigation,12/09/2025 6:14
+593,19/04/2025,SQL Injection,High,Under Investigation,19/04/2025 22:04
+594,12/01/2025,Insider Threat,Low,Pending Review,12/01/2025 10:29
+595,30/10/2025,Malware,Critical,Closed,30/10/2025 12:03
+596,09/07/2025,Phishing,Low,Under Investigation,09/07/2025 9:34
+597,07/06/2025,Phishing,Critical,Under Investigation,07/06/2025 14:43
+598,04/09/2025,Ransomware,Medium,Open,04/09/2025 1:32
+599,08/09/2025,Data Leak,Medium,Pending Review,08/09/2025 15:37
+600,02/07/2025,Phishing,Medium,Resolved,02/07/2025 14:31
+601,23/01/2025,Ransomware,Low,Open,23/01/2025 23:30
+602,13/01/2025,DDoS,High,Pending Review,13/01/2025 6:07
+603,27/11/2025,SQL Injection,Low,Open,27/11/2025 23:23
+604,30/03/2025,DDoS,Low,Pending Review,30/03/2025 3:23
+605,27/01/2025,DDoS,Medium,Closed,27/01/2025 7:03
+606,17/06/2025,Insider Threat,Critical,Open,17/06/2025 20:08
+607,19/09/2025,Malware,Low,Resolved,19/09/2025 10:01
+608,26/11/2025,Data Leak,High,Under Investigation,26/11/2025 0:09
+609,07/12/2025,Phishing,High,Pending Review,07/12/2025 8:46
+610,30/07/2025,Ransomware,Medium,Closed,30/07/2025 13:43
+611,05/05/2025,Phishing,Low,Open,05/05/2025 8:32
+612,07/11/2025,Brute Force,Medium,Closed,07/11/2025 14:35
+613,13/12/2025,Malware,Low,Under Investigation,13/12/2025 11:15
+614,10/02/2025,Insider Threat,Medium,Resolved,10/02/2025 14:56
+615,06/05/2025,Malware,Medium,Closed,06/05/2025 22:36
+616,30/06/2025,SQL Injection,Low,Resolved,30/06/2025 13:00
+617,22/03/2025,Malware,Low,Closed,22/03/2025 9:40
+618,05/08/2025,Data Leak,High,Closed,05/08/2025 19:22
+619,12/03/2025,Malware,High,Pending Review,12/03/2025 11:00
+620,09/07/2025,Data Leak,High,Pending Review,09/07/2025 2:11
+621,08/03/2025,Brute Force,High,Under Investigation,08/03/2025 12:17
+622,06/08/2025,Insider Threat,High,Open,06/08/2025 4:23
+623,28/11/2025,Malware,High,Pending Review,28/11/2025 11:26
+624,03/04/2025,Brute Force,High,Under Investigation,03/04/2025 7:07
+625,17/08/2025,DDoS,Critical,Resolved,17/08/2025 11:39
+626,24/04/2025,Insider Threat,Low,Closed,24/04/2025 2:19
+627,28/03/2025,Ransomware,High,Closed,28/03/2025 17:18
+628,08/01/2025,Phishing,Medium,Pending Review,08/01/2025 10:04
+629,18/07/2025,DDoS,High,Open,18/07/2025 9:50
+630,01/05/2025,Ransomware,High,Resolved,01/05/2025 3:33
+631,19/05/2025,Data Leak,Critical,Open,19/05/2025 23:38
+632,17/05/2025,Brute Force,Critical,Resolved,17/05/2025 23:10
+633,24/01/2025,Ransomware,High,Closed,24/01/2025 8:47
+634,11/07/2025,Brute Force,Medium,Under Investigation,11/07/2025 3:29
+635,16/03/2025,SQL Injection,Low,Closed,16/03/2025 10:21
+636,29/05/2025,Brute Force,Critical,Closed,29/05/2025 23:39
+637,21/12/2024,SQL Injection,High,Closed,21/12/2024 18:42
+638,17/06/2025,Insider Threat,Low,Under Investigation,17/06/2025 15:49
+639,18/12/2024,Insider Threat,Low,Resolved,18/12/2024 22:00
+640,03/02/2025,Insider Threat,High,Open,03/02/2025 0:49
+641,07/01/2025,Insider Threat,High,Closed,07/01/2025 11:44
+642,07/02/2025,SQL Injection,High,Under Investigation,07/02/2025 7:02
+643,14/08/2025,DDoS,High,Open,14/08/2025 3:26
+644,05/01/2025,Brute Force,Critical,Resolved,05/01/2025 19:21
+645,19/04/2025,Ransomware,High,Closed,19/04/2025 23:48
+646,14/08/2025,Data Leak,Low,Under Investigation,14/08/2025 2:20
+647,12/11/2025,Data Leak,Low,Closed,12/11/2025 3:10
+648,15/06/2025,Data Leak,Medium,Resolved,15/06/2025 8:23
+649,10/05/2025,Ransomware,Medium,Open,10/05/2025 23:34
+650,11/03/2025,Phishing,Critical,Resolved,11/03/2025 23:47
+651,02/06/2025,DDoS,High,Under Investigation,02/06/2025 15:03
+652,25/11/2025,Phishing,Critical,Under Investigation,25/11/2025 4:53
+653,10/08/2025,Ransomware,Critical,Pending Review,10/08/2025 17:34
+654,21/04/2025,DDoS,High,Under Investigation,21/04/2025 3:20
+655,22/06/2025,Insider Threat,Critical,Resolved,22/06/2025 21:52
+656,11/02/2025,Malware,High,Under Investigation,11/02/2025 4:03
+657,13/12/2025,DDoS,Medium,Under Investigation,13/12/2025 14:37
+658,28/01/2025,DDoS,Low,Pending Review,28/01/2025 14:31
+659,06/06/2025,Brute Force,Medium,Resolved,06/06/2025 13:50
+660,13/07/2025,Insider Threat,Medium,Under Investigation,13/07/2025 17:21
+661,27/06/2025,Ransomware,Critical,Closed,27/06/2025 19:20
+662,29/05/2025,Phishing,Critical,Under Investigation,29/05/2025 23:03
+663,24/08/2025,Ransomware,Medium,Under Investigation,24/08/2025 7:40
+664,10/07/2025,Malware,High,Resolved,10/07/2025 9:22
+665,10/01/2025,Data Leak,Low,Pending Review,10/01/2025 10:29
+666,12/09/2025,Ransomware,Medium,Resolved,12/09/2025 9:21
+667,27/03/2025,Data Leak,Low,Open,27/03/2025 3:32
+668,07/09/2025,DDoS,Critical,Under Investigation,07/09/2025 10:43
+669,07/07/2025,Insider Threat,High,Resolved,07/07/2025 15:12
+670,27/11/2025,Brute Force,Medium,Resolved,27/11/2025 18:30
+671,20/07/2025,Insider Threat,Medium,Pending Review,20/07/2025 2:32
+672,23/03/2025,Ransomware,Critical,Pending Review,23/03/2025 12:42
+673,30/08/2025,Phishing,High,Closed,30/08/2025 21:06
+674,14/07/2025,Phishing,Low,Closed,14/07/2025 11:02
+675,02/03/2025,Brute Force,Low,Open,02/03/2025 16:50
+676,20/04/2025,Data Leak,Critical,Open,20/04/2025 19:25
+677,01/05/2025,Insider Threat,High,Resolved,01/05/2025 5:23
+678,21/07/2025,Phishing,Medium,Closed,21/07/2025 4:23
+679,08/11/2025,DDoS,Critical,Resolved,08/11/2025 20:43
+680,07/04/2025,Insider Threat,High,Closed,07/04/2025 6:29
+681,29/01/2025,Data Leak,Critical,Closed,29/01/2025 15:45
+682,13/12/2024,Brute Force,Medium,Pending Review,13/12/2024 23:50
+683,11/05/2025,Brute Force,Critical,Under Investigation,11/05/2025 7:26
+684,27/05/2025,Insider Threat,Low,Under Investigation,27/05/2025 18:38
+685,15/04/2025,Brute Force,Low,Pending Review,15/04/2025 11:56
+686,07/09/2025,Phishing,High,Open,07/09/2025 6:59
+687,02/09/2025,Data Leak,High,Pending Review,02/09/2025 20:44
+688,04/05/2025,SQL Injection,Critical,Under Investigation,04/05/2025 18:50
+689,27/10/2025,Data Leak,Low,Open,27/10/2025 4:39
+690,13/11/2025,SQL Injection,Critical,Resolved,13/11/2025 4:02
+691,17/01/2025,Brute Force,Medium,Open,17/01/2025 15:24
+692,17/08/2025,Brute Force,Medium,Pending Review,17/08/2025 6:17
+693,04/08/2025,SQL Injection,Critical,Open,04/08/2025 21:04
+694,27/05/2025,Ransomware,Low,Open,27/05/2025 13:03
+695,29/06/2025,Insider Threat,Low,Closed,29/06/2025 7:18
+696,29/10/2025,Data Leak,Critical,Under Investigation,29/10/2025 16:23
+697,03/09/2025,Data Leak,Low,Open,03/09/2025 13:39
+698,03/06/2025,Insider Threat,Critical,Pending Review,03/06/2025 5:50
+699,22/07/2025,Ransomware,Medium,Under Investigation,22/07/2025 12:53
+700,19/03/2025,DDoS,Low,Resolved,19/03/2025 18:01
+701,08/11/2025,DDoS,Medium,Resolved,08/11/2025 2:48
+702,01/08/2025,Data Leak,Medium,Open,01/08/2025 23:08
+703,28/08/2025,Ransomware,Medium,Open,28/08/2025 11:49
+704,20/12/2024,SQL Injection,Low,Resolved,20/12/2024 23:39
+705,15/08/2025,Ransomware,High,Resolved,15/08/2025 5:12
+706,07/08/2025,Ransomware,Low,Open,07/08/2025 9:44
+707,07/08/2025,SQL Injection,Medium,Open,07/08/2025 6:23
+708,17/04/2025,SQL Injection,Medium,Resolved,17/04/2025 7:50
+709,11/10/2025,Malware,Low,Under Investigation,11/10/2025 11:07
+710,10/04/2025,SQL Injection,High,Pending Review,10/04/2025 12:12
+711,08/10/2025,Ransomware,Medium,Open,08/10/2025 17:24
+712,22/01/2025,SQL Injection,Medium,Closed,22/01/2025 13:55
+713,26/03/2025,Ransomware,Critical,Resolved,26/03/2025 6:18
+714,22/05/2025,Brute Force,Medium,Resolved,22/05/2025 19:45
+715,07/12/2025,Insider Threat,Critical,Resolved,07/12/2025 20:57
+716,12/12/2025,Ransomware,Critical,Under Investigation,12/12/2025 3:21
+717,31/12/2024,Insider Threat,Medium,Closed,31/12/2024 14:03
+718,29/06/2025,Brute Force,Critical,Open,29/06/2025 16:33
+719,01/11/2025,Malware,High,Under Investigation,01/11/2025 12:22
+720,07/01/2025,Ransomware,Critical,Pending Review,07/01/2025 5:19
+721,20/10/2025,Data Leak,High,Under Investigation,20/10/2025 19:46
+722,11/11/2025,Malware,Low,Under Investigation,11/11/2025 12:56
+723,22/07/2025,Malware,High,Open,22/07/2025 12:24
+724,09/10/2025,Phishing,High,Open,09/10/2025 10:45
+725,06/09/2025,DDoS,High,Open,06/09/2025 9:15
+726,17/06/2025,Ransomware,Medium,Under Investigation,17/06/2025 20:43
+727,25/12/2024,Malware,High,Closed,25/12/2024 13:28
+728,29/04/2025,Ransomware,High,Resolved,29/04/2025 13:53
+729,07/02/2025,DDoS,Critical,Pending Review,07/02/2025 0:24
+730,30/06/2025,Malware,Critical,Resolved,30/06/2025 14:33
+731,10/03/2025,DDoS,Low,Pending Review,10/03/2025 9:03
+732,09/10/2025,DDoS,Low,Closed,09/10/2025 7:06
+733,01/02/2025,Ransomware,High,Pending Review,01/02/2025 0:27
+734,21/02/2025,Malware,Low,Resolved,21/02/2025 12:29
+735,09/01/2025,Brute Force,Critical,Resolved,09/01/2025 5:44
+736,11/06/2025,SQL Injection,High,Closed,11/06/2025 19:42
+737,12/02/2025,Brute Force,Medium,Closed,12/02/2025 16:51
+738,09/05/2025,Insider Threat,Critical,Pending Review,09/05/2025 9:17
+739,28/04/2025,Phishing,Critical,Pending Review,28/04/2025 16:33
+740,18/04/2025,SQL Injection,Low,Under Investigation,18/04/2025 1:30
+741,28/04/2025,Malware,Low,Open,28/04/2025 0:24
+742,30/01/2025,Phishing,High,Pending Review,30/01/2025 12:24
+743,21/03/2025,Insider Threat,High,Resolved,21/03/2025 6:59
+744,11/04/2025,Malware,Low,Closed,11/04/2025 14:34
+745,10/05/2025,Ransomware,High,Open,10/05/2025 13:39
+746,31/03/2025,Malware,Medium,Pending Review,31/03/2025 11:53
+747,05/01/2025,Ransomware,High,Pending Review,05/01/2025 9:08
+748,26/01/2025,Ransomware,Low,Open,26/01/2025 4:48
+749,16/04/2025,Data Leak,Critical,Pending Review,16/04/2025 18:50
+750,03/09/2025,Phishing,Low,Resolved,03/09/2025 18:20
+751,19/02/2025,Brute Force,Low,Resolved,19/02/2025 9:51
+752,11/06/2025,Ransomware,High,Open,11/06/2025 18:22
+753,14/09/2025,Data Leak,High,Closed,14/09/2025 15:16
+754,30/06/2025,DDoS,Critical,Pending Review,30/06/2025 22:22
+755,10/05/2025,Malware,Critical,Resolved,10/05/2025 21:43
+756,23/04/2025,Insider Threat,Medium,Closed,23/04/2025 16:28
+757,05/04/2025,SQL Injection,Critical,Closed,05/04/2025 0:21
+758,10/09/2025,DDoS,Medium,Resolved,10/09/2025 2:14
+759,10/03/2025,DDoS,Critical,Pending Review,10/03/2025 5:17
+760,26/07/2025,Insider Threat,Medium,Pending Review,26/07/2025 20:49
+761,27/04/2025,Phishing,Low,Open,27/04/2025 13:15
+762,03/07/2025,Malware,High,Under Investigation,03/07/2025 8:38
+763,20/12/2024,DDoS,High,Under Investigation,20/12/2024 6:36
+764,25/06/2025,DDoS,Low,Pending Review,25/06/2025 21:03
+765,01/08/2025,Brute Force,Critical,Under Investigation,01/08/2025 14:50
+766,17/07/2025,Brute Force,Medium,Open,17/07/2025 13:54
+767,01/02/2025,Brute Force,Medium,Pending Review,01/02/2025 3:30
+768,02/10/2025,Phishing,High,Closed,02/10/2025 10:43
+769,27/10/2025,Insider Threat,High,Resolved,27/10/2025 14:29
+770,25/08/2025,DDoS,Low,Pending Review,25/08/2025 4:39
+771,08/08/2025,Malware,Low,Under Investigation,08/08/2025 22:02
+772,01/05/2025,Malware,Low,Under Investigation,01/05/2025 13:55
+773,06/05/2025,Phishing,Critical,Closed,06/05/2025 16:07
+774,23/05/2025,DDoS,Medium,Resolved,23/05/2025 1:05
+775,27/11/2025,Malware,Medium,Resolved,27/11/2025 7:45
+776,13/03/2025,Data Leak,High,Open,13/03/2025 17:20
+777,27/11/2025,DDoS,Medium,Open,27/11/2025 10:42
+778,05/08/2025,Phishing,Critical,Closed,05/08/2025 12:21
+779,09/12/2025,Insider Threat,Low,Closed,09/12/2025 5:33
+780,07/01/2025,DDoS,High,Open,07/01/2025 18:03
+781,29/12/2024,DDoS,Medium,Closed,29/12/2024 6:03
+782,22/10/2025,Brute Force,Medium,Closed,22/10/2025 6:29
+783,12/10/2025,DDoS,Medium,Resolved,12/10/2025 0:15
+784,09/11/2025,Data Leak,Critical,Resolved,09/11/2025 16:12
+785,23/02/2025,Ransomware,Low,Resolved,23/02/2025 11:59
+786,25/02/2025,Phishing,Critical,Under Investigation,25/02/2025 6:41
+787,24/10/2025,DDoS,Low,Open,24/10/2025 21:47
+788,01/11/2025,Phishing,Critical,Resolved,01/11/2025 23:01
+789,23/08/2025,Data Leak,Critical,Resolved,23/08/2025 11:00
+790,05/05/2025,Insider Threat,Medium,Resolved,05/05/2025 18:53
+791,19/11/2025,Ransomware,Critical,Under Investigation,19/11/2025 1:05
+792,01/02/2025,Brute Force,Medium,Resolved,01/02/2025 6:12
+793,18/07/2025,DDoS,High,Closed,18/07/2025 22:28
+794,26/06/2025,Phishing,Low,Under Investigation,26/06/2025 7:47
+795,16/06/2025,Phishing,Medium,Open,16/06/2025 2:24
+796,28/01/2025,Malware,Low,Pending Review,28/01/2025 19:20
+797,04/03/2025,DDoS,Critical,Under Investigation,04/03/2025 2:33
+798,13/08/2025,Malware,Critical,Open,13/08/2025 23:32
+799,10/01/2025,SQL Injection,Medium,Closed,10/01/2025 4:57
+800,09/01/2025,Phishing,High,Closed,09/01/2025 15:15
+801,22/04/2025,Phishing,Medium,Closed,22/04/2025 20:24
+802,13/09/2025,Ransomware,Low,Under Investigation,13/09/2025 15:49
+803,04/07/2025,SQL Injection,High,Under Investigation,04/07/2025 20:40
+804,05/10/2025,Brute Force,High,Pending Review,05/10/2025 0:43
+805,31/01/2025,Data Leak,Critical,Open,31/01/2025 19:56
+806,10/10/2025,DDoS,High,Under Investigation,10/10/2025 1:40
+807,13/01/2025,Ransomware,Medium,Resolved,13/01/2025 16:11
+808,20/02/2025,DDoS,Low,Resolved,20/02/2025 16:48
+809,17/08/2025,Ransomware,Medium,Under Investigation,17/08/2025 2:32
+810,02/12/2025,DDoS,High,Pending Review,02/12/2025 14:36
+811,27/11/2025,Brute Force,Critical,Closed,27/11/2025 0:26
+812,22/08/2025,Data Leak,Low,Closed,22/08/2025 1:38
+813,24/05/2025,Phishing,Critical,Resolved,24/05/2025 5:13
+814,13/08/2025,Brute Force,High,Pending Review,13/08/2025 0:50
+815,21/12/2024,Brute Force,High,Under Investigation,21/12/2024 9:12
+816,08/10/2025,Phishing,Medium,Pending Review,08/10/2025 14:15
+817,23/08/2025,Ransomware,Low,Pending Review,23/08/2025 8:31
+818,29/01/2025,Insider Threat,High,Open,29/01/2025 19:27
+819,09/10/2025,Ransomware,Critical,Open,09/10/2025 12:29
+820,13/09/2025,SQL Injection,Medium,Under Investigation,13/09/2025 18:05
+821,18/10/2025,Malware,Low,Closed,18/10/2025 7:25
+822,18/04/2025,Brute Force,Medium,Under Investigation,18/04/2025 16:39
+823,28/04/2025,Phishing,Low,Pending Review,28/04/2025 13:08
+824,14/05/2025,Phishing,Medium,Resolved,14/05/2025 23:46
+825,08/04/2025,SQL Injection,Medium,Resolved,08/04/2025 16:13
+826,11/05/2025,Brute Force,Medium,Under Investigation,11/05/2025 11:24
+827,06/10/2025,Malware,Medium,Closed,06/10/2025 17:13
+828,14/04/2025,Ransomware,Medium,Open,14/04/2025 19:38
+829,07/10/2025,Insider Threat,High,Under Investigation,07/10/2025 5:09
+830,10/11/2025,SQL Injection,Critical,Pending Review,10/11/2025 15:17
+831,30/01/2025,Data Leak,Medium,Resolved,30/01/2025 21:12
+832,13/05/2025,SQL Injection,Low,Resolved,13/05/2025 16:12
+833,18/08/2025,SQL Injection,Medium,Closed,18/08/2025 9:05
+834,23/08/2025,Insider Threat,Critical,Closed,23/08/2025 19:17
+835,06/12/2025,Brute Force,Critical,Open,06/12/2025 22:26
+836,25/12/2024,Malware,Medium,Pending Review,25/12/2024 9:44
+837,14/01/2025,DDoS,High,Resolved,14/01/2025 9:23
+838,09/11/2025,Brute Force,Critical,Open,09/11/2025 1:34
+839,03/05/2025,Data Leak,Medium,Pending Review,03/05/2025 1:31
+840,27/04/2025,Insider Threat,High,Open,27/04/2025 18:55
+841,04/08/2025,Insider Threat,Medium,Under Investigation,04/08/2025 18:59
+842,28/04/2025,Phishing,High,Pending Review,28/04/2025 18:14
+843,29/09/2025,SQL Injection,Low,Under Investigation,29/09/2025 4:51
+844,03/05/2025,DDoS,High,Open,03/05/2025 22:08
+845,26/05/2025,SQL Injection,Medium,Under Investigation,26/05/2025 3:39
+846,27/09/2025,SQL Injection,Medium,Pending Review,27/09/2025 1:54
+847,08/02/2025,DDoS,High,Under Investigation,08/02/2025 4:51
+848,04/08/2025,Insider Threat,Medium,Under Investigation,04/08/2025 8:24
+849,06/10/2025,Ransomware,Medium,Closed,06/10/2025 2:59
+850,09/11/2025,Phishing,Critical,Under Investigation,09/11/2025 17:39
+851,26/07/2025,Malware,Medium,Closed,26/07/2025 17:59
+852,30/10/2025,DDoS,Critical,Open,30/10/2025 18:48
+853,03/03/2025,Insider Threat,Medium,Open,03/03/2025 17:18
+854,01/03/2025,Insider Threat,Critical,Pending Review,01/03/2025 3:29
+855,09/01/2025,Data Leak,High,Under Investigation,09/01/2025 2:20
+856,08/11/2025,DDoS,High,Open,08/11/2025 17:38
+857,24/08/2025,Data Leak,Medium,Pending Review,24/08/2025 17:39
+858,09/01/2025,DDoS,Medium,Resolved,09/01/2025 5:42
+859,24/11/2025,Ransomware,Low,Closed,24/11/2025 16:45
+860,28/07/2025,DDoS,Medium,Open,28/07/2025 17:40
+861,12/06/2025,DDoS,High,Closed,12/06/2025 8:41
+862,26/06/2025,Data Leak,High,Closed,26/06/2025 12:16
+863,06/05/2025,SQL Injection,Critical,Under Investigation,06/05/2025 3:10
+864,12/12/2025,SQL Injection,Medium,Closed,12/12/2025 6:42
+865,03/11/2025,Ransomware,Medium,Closed,03/11/2025 8:51
+866,12/10/2025,Phishing,Critical,Resolved,12/10/2025 7:44
+867,18/08/2025,Brute Force,Low,Closed,18/08/2025 23:03
+868,29/03/2025,Malware,Medium,Closed,29/03/2025 7:27
+869,30/11/2025,Insider Threat,High,Resolved,30/11/2025 14:01
+870,06/06/2025,Data Leak,Critical,Open,06/06/2025 21:18
+871,21/01/2025,Brute Force,Medium,Open,21/01/2025 13:40
+872,19/04/2025,DDoS,High,Under Investigation,19/04/2025 12:29
+873,08/10/2025,Insider Threat,Low,Open,08/10/2025 22:41
+874,03/07/2025,Insider Threat,Medium,Open,03/07/2025 15:14
+875,19/12/2024,DDoS,Medium,Pending Review,19/12/2024 18:24
+876,23/03/2025,Insider Threat,High,Resolved,23/03/2025 21:49
+877,01/09/2025,SQL Injection,Critical,Pending Review,01/09/2025 2:50
+878,08/06/2025,SQL Injection,Low,Resolved,08/06/2025 20:50
+879,23/07/2025,Brute Force,High,Under Investigation,23/07/2025 15:50
+880,09/01/2025,Data Leak,Medium,Pending Review,09/01/2025 6:19
+881,17/05/2025,Brute Force,Low,Pending Review,17/05/2025 8:19
+882,02/03/2025,DDoS,Low,Resolved,02/03/2025 4:40
+883,06/02/2025,Phishing,Low,Open,06/02/2025 21:35
+884,20/08/2025,DDoS,Medium,Under Investigation,20/08/2025 10:49
+885,31/05/2025,Phishing,Low,Closed,31/05/2025 3:03
+886,11/12/2025,Ransomware,Medium,Pending Review,11/12/2025 22:32
+887,22/06/2025,Malware,Critical,Under Investigation,22/06/2025 23:54
+888,14/02/2025,Insider Threat,Critical,Resolved,14/02/2025 12:41
+889,26/12/2024,Insider Threat,Critical,Under Investigation,26/12/2024 22:25
+890,23/05/2025,Brute Force,High,Under Investigation,23/05/2025 9:09
+891,24/10/2025,Insider Threat,Medium,Closed,24/10/2025 18:47
+892,14/03/2025,SQL Injection,Critical,Pending Review,14/03/2025 22:23
+893,03/09/2025,SQL Injection,High,Pending Review,03/09/2025 6:23
+894,03/10/2025,DDoS,Low,Resolved,03/10/2025 12:36
+895,11/03/2025,DDoS,Critical,Pending Review,11/03/2025 3:12
+896,22/03/2025,DDoS,Low,Pending Review,22/03/2025 10:07
+897,21/01/2025,Insider Threat,Low,Open,21/01/2025 20:58
+898,15/04/2025,Brute Force,Low,Pending Review,15/04/2025 18:29
+899,06/01/2025,Insider Threat,Low,Resolved,06/01/2025 1:58
+900,29/03/2025,Ransomware,Low,Closed,29/03/2025 10:17
+901,17/10/2025,Brute Force,Low,Resolved,17/10/2025 19:58
+902,31/01/2025,Brute Force,Low,Under Investigation,31/01/2025 2:10
+903,21/06/2025,Ransomware,High,Open,21/06/2025 9:33
+904,25/05/2025,DDoS,High,Pending Review,25/05/2025 8:28
+905,17/02/2025,Phishing,Medium,Pending Review,17/02/2025 21:53
+906,02/07/2025,Malware,Critical,Open,02/07/2025 7:00
+907,09/04/2025,SQL Injection,High,Pending Review,09/04/2025 8:44
+908,30/05/2025,DDoS,Critical,Pending Review,30/05/2025 1:53
+909,21/08/2025,Insider Threat,Low,Closed,21/08/2025 0:34
+910,04/07/2025,Phishing,Critical,Under Investigation,04/07/2025 18:15
+911,01/09/2025,Phishing,Low,Under Investigation,01/09/2025 16:16
+912,27/07/2025,Data Leak,Medium,Closed,27/07/2025 6:06
+913,21/06/2025,Phishing,Low,Open,21/06/2025 8:15
+914,28/12/2024,Insider Threat,Low,Closed,28/12/2024 13:10
+915,24/01/2025,Brute Force,High,Under Investigation,24/01/2025 16:26
+916,22/04/2025,Brute Force,Critical,Resolved,22/04/2025 14:41
+917,03/02/2025,Phishing,Medium,Under Investigation,03/02/2025 22:09
+918,26/12/2024,Malware,Low,Pending Review,26/12/2024 13:23
+919,10/11/2025,Insider Threat,Low,Under Investigation,10/11/2025 10:52
+920,14/05/2025,Brute Force,Low,Open,14/05/2025 11:16
+921,11/10/2025,Data Leak,High,Under Investigation,11/10/2025 10:49
+922,19/10/2025,Phishing,High,Pending Review,19/10/2025 12:39
+923,05/10/2025,Ransomware,High,Resolved,05/10/2025 3:28
+924,29/04/2025,Ransomware,Low,Pending Review,29/04/2025 12:09
+925,13/07/2025,Ransomware,Critical,Under Investigation,13/07/2025 0:01
+926,12/06/2025,SQL Injection,Medium,Under Investigation,12/06/2025 5:05
+927,17/04/2025,Ransomware,Critical,Closed,17/04/2025 4:52
+928,10/10/2025,Insider Threat,Critical,Under Investigation,10/10/2025 22:51
+929,29/11/2025,Malware,High,Pending Review,29/11/2025 10:46
+930,09/02/2025,Malware,High,Pending Review,09/02/2025 7:11
+931,19/12/2024,Phishing,Critical,Resolved,19/12/2024 13:50
+932,03/08/2025,DDoS,Medium,Open,03/08/2025 23:46
+933,18/07/2025,Brute Force,High,Open,18/07/2025 21:06
+934,09/12/2025,Ransomware,Low,Open,09/12/2025 6:45
+935,17/03/2025,Ransomware,High,Closed,17/03/2025 11:56
+936,01/10/2025,Brute Force,Medium,Open,01/10/2025 9:43
+937,20/05/2025,Brute Force,Medium,Under Investigation,20/05/2025 18:45
+938,18/01/2025,Ransomware,Medium,Pending Review,18/01/2025 17:25
+939,10/01/2025,Insider Threat,Medium,Closed,10/01/2025 7:26
+940,27/09/2025,DDoS,Low,Under Investigation,27/09/2025 23:46
+941,23/04/2025,Phishing,Medium,Resolved,23/04/2025 0:45
+942,26/07/2025,Insider Threat,Medium,Open,26/07/2025 1:32
+943,26/07/2025,Brute Force,Low,Open,26/07/2025 22:45
+944,26/09/2025,Phishing,Critical,Pending Review,26/09/2025 23:21
+945,08/06/2025,Phishing,Medium,Under Investigation,08/06/2025 13:20
+946,21/03/2025,Malware,Critical,Closed,21/03/2025 0:46
+947,24/07/2025,Malware,Critical,Pending Review,24/07/2025 13:38
+948,13/06/2025,Malware,Low,Resolved,13/06/2025 13:54
+949,24/02/2025,Ransomware,Medium,Under Investigation,24/02/2025 3:13
+950,08/04/2025,Malware,Low,Under Investigation,08/04/2025 1:11
+951,19/07/2025,Brute Force,Low,Pending Review,19/07/2025 13:58
+952,23/01/2025,SQL Injection,Low,Closed,23/01/2025 22:03
+953,24/02/2025,Data Leak,Medium,Pending Review,24/02/2025 21:32
+954,26/07/2025,Data Leak,Critical,Under Investigation,26/07/2025 15:17
+955,16/06/2025,Malware,Medium,Pending Review,16/06/2025 3:10
+956,14/01/2025,Ransomware,High,Open,14/01/2025 7:58
+957,15/01/2025,Insider Threat,Medium,Closed,15/01/2025 10:15
+958,11/11/2025,Brute Force,Critical,Under Investigation,11/11/2025 22:25
+959,04/10/2025,Data Leak,Critical,Pending Review,04/10/2025 13:46
+960,19/12/2024,SQL Injection,Low,Open,19/12/2024 18:35
+961,03/04/2025,Phishing,Medium,Open,03/04/2025 23:15
+962,04/07/2025,DDoS,High,Open,04/07/2025 17:41
+963,28/08/2025,Ransomware,Medium,Closed,28/08/2025 23:47
+964,25/01/2025,Malware,Medium,Under Investigation,25/01/2025 8:50
+965,26/11/2025,DDoS,Critical,Closed,26/11/2025 6:15
+966,26/09/2025,Ransomware,Medium,Closed,26/09/2025 3:54
+967,20/02/2025,Data Leak,High,Under Investigation,20/02/2025 14:22
+968,18/02/2025,Phishing,High,Open,18/02/2025 3:48
+969,15/02/2025,Phishing,High,Closed,15/02/2025 10:38
+970,12/04/2025,Phishing,Low,Open,12/04/2025 21:45
+971,09/06/2025,Data Leak,High,Under Investigation,09/06/2025 7:54
+972,23/09/2025,SQL Injection,High,Under Investigation,23/09/2025 0:18
+973,20/06/2025,Ransomware,Critical,Pending Review,20/06/2025 6:53
+974,18/10/2025,Insider Threat,Critical,Resolved,18/10/2025 6:34
+975,17/11/2025,Malware,Low,Open,17/11/2025 0:09
+976,29/01/2025,Insider Threat,Critical,Under Investigation,29/01/2025 1:53
+977,14/11/2025,Phishing,Medium,Closed,14/11/2025 4:40
+978,04/05/2025,Insider Threat,High,Pending Review,04/05/2025 10:13
+979,20/05/2025,Insider Threat,Critical,Under Investigation,20/05/2025 15:48
+980,27/09/2025,Brute Force,High,Resolved,27/09/2025 20:41
+981,04/11/2025,SQL Injection,Medium,Closed,04/11/2025 10:36
+982,10/11/2025,Ransomware,Low,Closed,10/11/2025 11:12
+983,12/10/2025,Data Leak,Medium,Under Investigation,12/10/2025 2:22
+984,01/07/2025,Ransomware,Low,Resolved,01/07/2025 10:04
+985,15/10/2025,SQL Injection,Low,Resolved,15/10/2025 22:14
+986,09/02/2025,Brute Force,Medium,Open,09/02/2025 6:16
+987,10/10/2025,Brute Force,Low,Open,10/10/2025 17:01
+988,11/09/2025,DDoS,High,Closed,11/09/2025 16:47
+989,22/09/2025,Phishing,Low,Closed,22/09/2025 13:18
+990,03/09/2025,Brute Force,Medium,Closed,03/09/2025 21:41
+991,08/10/2025,Phishing,Low,Under Investigation,08/10/2025 2:51
+992,23/04/2025,Data Leak,High,Pending Review,23/04/2025 13:50
+993,30/04/2025,Insider Threat,Critical,Open,30/04/2025 8:48
+994,27/02/2025,SQL Injection,Critical,Closed,27/02/2025 13:35
+995,06/08/2025,DDoS,Critical,Pending Review,06/08/2025 8:16
+996,20/02/2025,DDoS,Critical,Closed,20/02/2025 13:47
+997,27/01/2025,Phishing,High,Under Investigation,27/01/2025 2:35
+998,15/12/2024,DDoS,High,Open,15/12/2024 13:15
+999,15/03/2025,Phishing,Medium,Closed,15/03/2025 10:48
+1000,16/08/2025,SQL Injection,Medium,Resolved,16/08/2025 18:00
