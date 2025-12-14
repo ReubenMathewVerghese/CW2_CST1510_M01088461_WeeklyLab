@@ -68,3 +68,30 @@ def delete_metadata(id):
     
     db.close()
     return success
+
+def getalldatasets(filter: str):
+    """
+        Get all Datasets as DataFrame.
+    """
+    conn = connect_database()
+    df = pd.read_sql_query(f"SELECT * FROM Datasets_Metadata WHERE {filter}", conn)
+    conn.close()
+    
+    return df
+
+def transfercsv():
+    import csv
+    from pathlib import Path
+    conn = connect_database()
+    cursor = conn.cursor()
+    with open(Path("Week8/DATA/Datasets_Metadata.csv").resolve()) as itFile:
+        reader = csv.reader(itFile)
+        header: bool = True
+        for row in reader:
+            if header == True:
+                header = False
+                continue
+            cursor.execute("INSERT INTO Datasets_Metadata (id, dataset_name, category, file_size_mb) VALUES (?, ?, ?, ?)", (int(row[0]), row[1], row[2], row[3]))
+
+    conn.commit()
+    conn.close()

@@ -23,6 +23,13 @@ def insert_ticket(ticket_id, subject, priority, status, created_date):
     db.commit()
     db.close()
 
+def getalltickets(filter: str):
+    conn = connect_database()
+    df = pd.read_sql_query("SELECT {column} from IT_Tickets WHERE {filter}", conn)
+    conn.close()
+    
+    return df
+
 def drop_tickets_table():
     """
     Drops the IT_Tickets table from the database.
@@ -84,3 +91,18 @@ def delete_ticket(ticket_id):
     
     db.close()
     return success
+
+def transfercsv():
+    conn = connect_database()
+    cursor = conn.cursor()
+    with open(Path("Week8/DATA/it_tickets.csv").resolve()) as itFile:
+        reader = csv.reader(itFile)
+        header: bool = True
+        for row in reader:
+            if header == False:
+                header = False
+                continue
+            cursor.execute("INSERT INTO It_Tickets (ticket_id, subject, priority, status, created_date) VALUES (?, ?, ?, ?, ?)", (row[0], row[1], row[2], row[3], row[4]))
+        
+    conn.commit()
+    conn.close()

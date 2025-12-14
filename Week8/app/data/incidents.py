@@ -21,6 +21,18 @@ def insert_incident(id, date, incident_type, severity, status):
     db.commit()
     db.close()
 
+def getallincidents(filter: str):
+    """
+        Get all incidents as DataFrame.
+        Takes filter: str as parameter and filters incidents
+    """
+    conn = connect_database()
+    df = pd.read_sql_query(f"SELECT * FROM Cyber_Incidents", conn)
+    conn.close()
+    
+    return df
+
+
 
 def update_incident(id, date, incident_type, severity, status):
     """
@@ -67,3 +79,20 @@ def delete_incident(incident_id):
     
     db.close()
     return success
+
+def transfercsv():
+    import csv
+    from pathlib import Path
+    conn = connect_database()
+    cursor = conn.cursor()
+    with open(Path("Week8/DATA/cyber_incidents.csv").resolve()) as itFile:
+        reader = csv.reader(itFile)
+        header: bool = True
+        for row in reader:
+            if header == True:
+                header = False
+                continue
+            cursor.execute("INSERT INTO Cyber_Incidents (id, incident_type, severity, status, date) VALUES (?, ?, ?, ?, ?)", (row[0], row[1], row[2], row[3], row[4]))
+
+    conn.commit()
+    conn.close()
