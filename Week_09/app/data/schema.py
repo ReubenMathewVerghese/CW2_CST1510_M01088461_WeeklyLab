@@ -2,25 +2,21 @@ def create_users_table(conn):
     """Create users table."""
     cursor = conn.cursor()
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS Users (
+        CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT NOT NULL UNIQUE,
-            password_hash TEXT NOT NULL
+            password_hash TEXT NOT NULL,
+            role TEXT DEFAULT 'user'
         )
     """)
     conn.commit()
-    
-
 def create_cyber_incidents_table(conn):
-    """
-    Create the cyber_incidents table.
-    """
-    
+    """Create cyber_incidents table."""
     cursor = conn.cursor()
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS Cyber_Incidents (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            date TEXT,
+          CREATE TABLE IF NOT EXISTS Cyber_Incidents (
+            id  INTEGER PRIMARY KEY ,
+            date date,
             incident_type TEXT,
             severity TEXT,
             status TEXT,
@@ -28,17 +24,12 @@ def create_cyber_incidents_table(conn):
         )
     """)
     conn.commit()
-    
-    print("SUCCCESS")
-
 
 def create_datasets_metadata_table(conn):
-    """
-    Create the datasets_metadata table.
-    """
+    """Create datasets_metadata table."""
     cursor = conn.cursor()
     cursor.execute("""
-        CREATE TABLE IF NOT EXISTS Datasets_Metadata (
+      CREATE TABLE IF NOT EXISTS Datasets_Metadata (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             dataset_name TEXT NOT NULL,
             category TEXT,
@@ -48,15 +39,13 @@ def create_datasets_metadata_table(conn):
     """)
     conn.commit()
 
-
 def create_it_tickets_table(conn):
-    """
-    Create the it_tickets table.
-    """
+    """Create it_tickets table."""
     cursor = conn.cursor()
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS IT_Tickets (
-            ticket_id TEXT PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            ticket_id TEXT UNIQUE NOT NULL,
             subject TEXT NOT NULL,
             priority TEXT,
             status TEXT,
@@ -66,15 +55,13 @@ def create_it_tickets_table(conn):
     """)
     conn.commit()
 
-
-def create_all_tables() -> None:
-    """
-        Explanation: Creates Users, Cyber_Incidents, Datasets_Metadata, It_Tickets Tables in intelligence_platform.db
-    """
+def create_all_tables()->None:
+    """Create all necessary tables."""
     import sqlite3
     from pathlib import Path
-    print(Path("Week 08/DATA/intelligence_data.db").resolve())
-    conn = sqlite3.connect(Path("Week 08/DATA/intelligence_data.db").resolve())
+
+    conn = sqlite3.connect(Path("DATA") / "intelligence_platform.db")
+    
     create_users_table(conn)
     create_cyber_incidents_table(conn)
     create_datasets_metadata_table(conn)

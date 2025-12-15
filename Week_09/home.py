@@ -60,7 +60,7 @@ def Login(loginTab) -> None:
 
         if st.button("Log in", type="primary"):
             # Tuple: (Success_Bool, Message_Str)
-            loginSuccess = LoginRegister.LoginUser(loginUsername, loginPasswd)
+            loginSuccess = LoginRegister.login_user(loginUsername, loginPasswd)
             
             if loginSuccess[0]:
                 st.session_state.logged_in = True
@@ -68,7 +68,7 @@ def Login(loginTab) -> None:
                 st.success("Welcome back, {}! ".format(loginUsername))
 
                 # Redirect to dashboard page
-                st.switch_page("pages/Cyber_Analytics.py")
+                st.switch_page("pages/IT_Tickets.py")
             else:
                 st.error(loginSuccess[1])
 
@@ -108,7 +108,7 @@ def Register(registerTab):
             
             else:
                 # 4. Only attempt registration if ALL validations pass
-                checkRegister = LoginRegister.RegisterUser(new_username, new_password)
+                checkRegister = LoginRegister.register_user(new_username, new_password)
                 
                 if not checkRegister[0]: # Failure (e.g., User already exists)
                     st.error(checkRegister[1])
